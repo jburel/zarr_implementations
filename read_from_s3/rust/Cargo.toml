@@ -1,0 +1,16 @@
+[package]
+name = "src"
+version = "0.1.0"
+authors = ["Jean-Marie Burel <j.burel@dundee.ac.uk>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rusoto_core = "0.42"
+rusoto_credential = "0.42"
+rusoto_ecs = "0.42"
+rusoto_sts = "0.42"
+rusoto_s3 = "0.42.0"
+rusoto_signature = "0.42.0"
+futures = "0.1.16"

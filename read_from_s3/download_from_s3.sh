@@ -3,4 +3,8 @@
 cd "${0%/*}"
 
 go get github.com/aws/aws-sdk-go
+cd go
 go run download.go 6001247.zarr
+cd ..
+cd rust
+cargo run
