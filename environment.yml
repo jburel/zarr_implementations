@@ -1,6 +1,8 @@
 channels:
   - conda-forge
   - defaults
+  - anaconda
+  - auto
 dependencies:
   - openjdk
   - maven
@@ -13,5 +15,7 @@ dependencies:
   - pip
   - go
   - rust
+  - openssl
+  - crypto
   - pip:
       - pyn5
