@@ -11,5 +11,6 @@ dependencies:
   - pytest
   - zarr >= 2.4.0
   - pip
+  - go
   - pip:
       - pyn5
